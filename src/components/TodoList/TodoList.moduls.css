@@ -1,0 +1,82 @@
+.List__container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(208, 208, 235);
+  min-height: 300px;
+  border-radius: 15px;
+  font-weight: bold;
+  gap: 5px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.buttons{
+  display: flex;
+  gap: 5px;
+  
+}
+
+.todo__row{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.todo__row:hover{
+  transform: rotateY(15deg);
+}
+
+.todo__button{
+  margin: 12px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.todo__button:hover{
+  
+  background-color: rgb(255, 240, 240);
+  
+}
+
+
+.active{
+  text-decoration: line-through;
+  opacity: 0.33;
+}
+
+.popup__title{
+  position: absolute;
+  background-color: rgb(208, 208, 235);
+  bottom: 1px;
+  opacity: 0;
+}
+
+.popup__title:hover{
+  opacity: 1;
+}
+
+
+.todo__name{
+  position: relative;
+}
+
+.filter__todo{
+  align-content: flex-end;
+}
+
+.filter__todo{
+  
+}
+
+.filter__input{
+
+  min-width: 65%;
+  min-height: 30px;
+  border-radius: 15px 15px 15px 15px;
+  text-align: center;
+  background-color: white;
+}
+
+.act-btn{
+  
+}

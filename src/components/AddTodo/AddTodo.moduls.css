@@ -1,0 +1,26 @@
+.item{
+  background-color: rgb(188, 188, 223);
+  
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow: 5px 5px 5px gray;
+  display: flex;
+  width: 300px;
+}
+
+.button__todo{
+  
+  margin: 12px;
+  background-color: rgb(255, 240, 240);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.button__todo:hover{
+  transform: rotateY(15deg);
+  background-color:rgb(249, 217, 217);
+}
+
+.add_todo{
+  text-align: center;
+}
